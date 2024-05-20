@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="chat-container">
+        <h1>Chat</h1>
+        <!-- <textarea id="chatBox" disabled></textarea> -->
+        <div id="chatBox" class="chat-box"></div>
+        <footer>
+            <input type="text" id="userInput" placeholder="Type your message here...">
+            <button onclick="sendMessage()">Send</button>
+        </footer>
+        <label>
+            <input type="checkbox" id="dryRun" checked>
+            Dry run mode
+        </label>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
